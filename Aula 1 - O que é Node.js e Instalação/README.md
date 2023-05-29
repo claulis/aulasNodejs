@@ -1,5 +1,5 @@
 <h1>Aula 1 - Node.js: caraterísticas e instalação</h1>
-![Logo do Node.js](https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg)
+<p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" width="20%" ></p>
 <hr></hr>
 <details>
 <summary><h2>O que é o Node.js</h2></summary>
@@ -15,3 +15,37 @@ Então, resumindo, o Node.js é uma plataforma de programação que ajuda os des
 
 Bora ver como funciona.😎</p>
 </details>
+
+<details>
+<summary><h2>Ambiente de desenvolvimento com VSCode</h2></summary>
+<p align="justify">
+Antes de começar com o próprio Node.js é bom entender quais são as ferramentas para iniciar.
+  
+Primeiramente precisamos de um ambiente de desenvolvimento, ou seja um editor de código. Existem vários softwares que facilitam o desenvolvimento, na lista abaixo estão citados os mais relevantes
+  
+  <ul>
+    <li><a href="https://www.sublimetext.com/" target="_blank">Sublime Text</a></li>
+    <li><a href="https://atom.io/" target="_blank">Atom</a></li>
+    <li><a href="https://notepad-plus-plus.org/" target="_blank">Notepad++</a></li>
+    <li><a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a> 🤩🤩</li>
+  </ul>
+  
+  Deu para entender que o queridinho aqui será o VS Code 😀
+  
+  Para instalar o VS Code, siga o passo a passo 👇
+  <ol>
+    <li>Acesse o site oficial do VS Code em https://code.visualstudio.com/.</li>
+    <li>Na página inicial, você encontrará o botão "Download", clique nele.</li>
+    <li>O site detectará automaticamente o sistema operacional e oferecerá o instalador do VS Code para Windows. Clique no botão de download correspondente.</li>
+    <li>Após o download, execute o instalador clicando duas vezes no arquivo baixado.</li>
+    <li>Será exibida a janela de instalação. Leia o contrato de licença e clique em "Next".</li>
+Escolha o local de instalação. O padrão geralmente é adequado, mas você pode alterar o local se desejar. Clique em "Next".
+Selecione os componentes adicionais que deseja instalar. Para a maioria dos usuários, as opções padrão são suficientes. Clique em "Next".
+Escolha se deseja adicionar o VS Code ao Path do sistema para que possa ser acessado facilmente no prompt de comando. É recomendado selecionar essa opção para facilitar o uso posterior. Clique em "Next".
+Na próxima tela, você pode optar por adicionar atalhos ao menu Iniciar e/ou à área de trabalho. Selecione as opções desejadas e clique em "Next".
+Na tela seguinte, selecione se deseja participar ou não do aprimoramento da experiência do usuário, enviando dados anônimos à Microsoft. Faça sua escolha e clique em "Next".
+Aguarde enquanto a instalação é concluída.
+Após a conclusão da instalação, você verá a tela de conclusão. Certifique-se de marcar a opção "Abrir o Visual Studio Code" e clique em "Finish".
+  </ol>
+</p>
+<details>
