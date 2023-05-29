@@ -1,3 +1,5 @@
+<h1>Aula 1 - Node.js: caraterísticas e instalação</h1>
+<hr></hr>
 <details>
 <summary><h2>O que é o Node.js</h2></summary>
 <p align="justify">O Node.js é uma plataforma de programação que permite criar aplicativos e sites incríveis usando a linguagem <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank">JavaScript</a> (sitezinho de referência e não adianta reclamar, sim, tem que aprender inglês). Sabe aqueles jogos ou sites interativos que você gosta? Muitos deles são feitos com JavaScript, e o Node.js. Sabe aqueles serviços online de comércio, redes sociais, aplicativos de celular...também pode ser feitos em Node.js.  
