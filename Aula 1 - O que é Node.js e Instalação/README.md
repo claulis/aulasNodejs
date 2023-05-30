@@ -1,3 +1,4 @@
+<link rel="stylesheet" type="text/css" href="styles.css">
 <h1>Aula 1 - Node.js: caraterísticas e instalação</h1>
 <p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" width="20%" ></p>
 <hr></hr>
@@ -17,7 +18,7 @@ Bora ver como funciona.😎</p>
 </details>
 
 <details>
-<summary><h2>Ambiente de desenvolvimento com VSCode</h2></summary>
+<summary><h2>Ambiente de desenvolvimento com Visual Studio Code</h2></summary>
 <p align="justify">
 Antes de começar com o próprio Node.js é bom entender quais são as ferramentas para iniciar.
   
@@ -30,22 +31,49 @@ Primeiramente precisamos de um ambiente de desenvolvimento, ou seja um editor de
     <li><a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a> 🤩🤩</li>
   </ul>
   
-  Deu para entender que o queridinho aqui será o VS Code 😀
+  Deu para entender que o queridinho aqui será o VS Code 😀...também é gratis 😎👍
   
   Para instalar o VS Code, siga o passo a passo 👇
   <ol>
-    <li>Acesse o site oficial do VS Code em https://code.visualstudio.com/.</li>
+    <li>Acesse o site oficial do VS Code em <a href="https://code.visualstudio.com/" target="_blank">https://code.visualstudio.com/</a>.</li>
     <li>Na página inicial, você encontrará o botão "Download", clique nele.</li>
     <li>O site detectará automaticamente o sistema operacional e oferecerá o instalador do VS Code para Windows. Clique no botão de download correspondente.</li>
     <li>Após o download, execute o instalador clicando duas vezes no arquivo baixado.</li>
     <li>Será exibida a janela de instalação. Leia o contrato de licença e clique em "Next".</li>
-Escolha o local de instalação. O padrão geralmente é adequado, mas você pode alterar o local se desejar. Clique em "Next".
-Selecione os componentes adicionais que deseja instalar. Para a maioria dos usuários, as opções padrão são suficientes. Clique em "Next".
-Escolha se deseja adicionar o VS Code ao Path do sistema para que possa ser acessado facilmente no prompt de comando. É recomendado selecionar essa opção para facilitar o uso posterior. Clique em "Next".
-Na próxima tela, você pode optar por adicionar atalhos ao menu Iniciar e/ou à área de trabalho. Selecione as opções desejadas e clique em "Next".
-Na tela seguinte, selecione se deseja participar ou não do aprimoramento da experiência do usuário, enviando dados anônimos à Microsoft. Faça sua escolha e clique em "Next".
-Aguarde enquanto a instalação é concluída.
-Após a conclusão da instalação, você verá a tela de conclusão. Certifique-se de marcar a opção "Abrir o Visual Studio Code" e clique em "Finish".
+    <li>Escolha o local de instalação. O padrão geralmente é adequado, mas você pode alterar o local se desejar. Clique em "Next".</li>
+    <li>Selecione os componentes adicionais que deseja instalar. Para a maioria dos usuários, as opções padrão são suficientes. Clique em "Next".</li>
+    <li>Escolha se deseja adicionar o VS Code ao Path do sistema para que possa ser acessado facilmente no prompt de comando. É recomendado selecionar essa opção para facilitar o uso posterior. Clique em "Next".</li>
+    <li>Na próxima tela, você pode optar por adicionar atalhos ao menu Iniciar e/ou à área de trabalho. Selecione as opções desejadas e clique em "Next".</li>
+    <li>Na tela seguinte, selecione se deseja participar ou não do aprimoramento da experiência do usuário, enviando dados anônimos à Microsoft. Faça sua escolha e clique em "Next".</li>
+    <li>Aguarde enquanto a instalação é concluída.</li>
+    <li>Após a conclusão da instalação, você verá a tela de conclusão. Certifique-se de marcar a opção "Abrir o Visual Studio Code" e clique em "Finish".</li>
   </ol>
-</p>
+  
+  Beleza 👍,resolvido isto vamos para o que nos interessa: a instalação do Node.js
+  </p>
+</details>
+
 <details>
+<summary><h2>Instalação do Node.js</h2></summary>
+<p align="justify">
+ <ol>
+  <li>Acesse o site oficial do Node.js em https://nodejs.org.</li>
+  <li>Na página inicial, você encontrará o botão "Download", clique nele.</li>
+  <li>Na seção "LTS" (Long Term Support), clique no botão "Windows Installer" para baixar o instalador do Node.js para Windows.</li>
+  <li>Após o download, execute o instalador clicando duas vezes no arquivo baixado.</li>
+  <li>Será exibida a janela de instalação. Leia o contrato de licença e clique em "Next".</li>
+  <li>Escolha o local de instalação. O padrão geralmente é adequado, mas você pode alterar o local se desejar. Clique em "Next".</li>
+  <li>Selecione os componentes que deseja instalar. Recomenda-se manter as opções padrão marcadas. Clique em "Next".</li>
+  <li>Escolha se deseja adicionar o Node.js ao Path do sistema para que possa ser acessado facilmente no prompt de comando. É recomendado selecionar a opção "Automatically install the necessary tools..." para que o Node.js funcione corretamente. Clique em "Next".</li>
+  <li>Na próxima tela, escolha um tipo de instalação. A opção "Normal" é recomendada para a maioria dos usuários. Clique em "Next".</li>
+  <li>Aguarde enquanto a instalação é concluída.</li>
+  <li>Após a conclusão da instalação, você verá a tela de conclusão. Clique em "Finish".</li>
+ </ol>
+  
+  Para terminar e verificar se tudo deu certo abra o prompt de comando e digite o seguinte comando.
+```bash 
+    node --version 
+```
+
+  </p>
+</details>
