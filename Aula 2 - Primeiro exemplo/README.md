@@ -12,6 +12,9 @@ O HTTP (Hypertext Transfer Protocol) é um protocolo de comunicação utilizado 
 
 2. **Requisição e Resposta:**
    Uma comunicação HTTP ocorre através de requisições e respostas. O cliente envia uma requisição HTTP para o servidor, solicitando um recurso específico, como uma página da web ou um arquivo. O servidor recebe a requisição, processa-a e envia uma resposta de volta ao cliente, que pode conter o recurso solicitado ou informações sobre o resultado da requisição.
+   
+   ![Request Response](https://upload.wikimedia.org/wikipedia/commons/7/7d/Simplified_diagram_of_an_HTTP_transaction.png?20160322121007)
+   Fonte:Wikimedia
 
 3. **Métodos HTTP:**
    O HTTP define diferentes métodos que podem ser usados em uma requisição para indicar a ação desejada. Alguns dos métodos mais comuns são:
@@ -25,9 +28,15 @@ O HTTP (Hypertext Transfer Protocol) é um protocolo de comunicação utilizado 
    - 200 OK: Indica que a requisição foi bem-sucedida.
    - 404 Not Found: Indica que o recurso solicitado não foi encontrado no servidor.
    - 500 Internal Server Error: Indica que ocorreu um erro no servidor ao processar a requisição.
+   ![Código](https://www.seobility.net/en/wiki/images/d/d2/HTTP-Header.png)
+   Fonte:www.seobility.net
+
 
 5. **Headers HTTP:**
    As mensagens HTTP também podem incluir cabeçalhos (headers) que fornecem informações adicionais sobre a requisição ou resposta. Por exemplo, cabeçalhos de requisição podem conter informações sobre o tipo de navegador do cliente, enquanto cabeçalhos de resposta podem incluir informações sobre o tipo de conteúdo retornado ou a data de modificação do recurso.
+
+   ![Header HTTP](https://upload.wikimedia.org/wikipedia/commons/a/a9/Prj8.jpeg?20170819193222)
+   Fonte:Wikimedia
 
 6. **Stateless:**
    O HTTP é um protocolo stateless, o que significa que cada requisição é tratada de forma independente, sem referência a requisições anteriores. Isso significa que o servidor não mantém nenhum estado da sessão entre requisições, e cada requisição é tratada isoladamente.
