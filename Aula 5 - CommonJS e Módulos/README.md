@@ -184,11 +184,11 @@ import('./modulo-dinamico.js').then((modulo) => {
 
 ### 4. Escopo de Módulo:
 
-Cada módulo ES6 tem seu próprio escopo, o que significa que as variáveis e funções definidas em um módulo não são globais e não vazam para o escopo global ou para outros módulos, a menos que explicitamente exportadas.
+>Cada módulo ES6 tem seu próprio escopo, o que significa que as variáveis e funções definidas em um módulo não são globais e não vazam para o escopo global ou para outros módulos, a menos que explicitamente exportadas.
 
 ### 5. Módulos Estáticos:
 
-Os módulos ES6 são estáticos, o que significa que as importações e exportações são resolvidas em tempo de compilação. Isso permite otimizações e análises estáticas por parte dos transpiladores e dos ambientes de execução.
+>Os módulos ES6 são estáticos, o que significa que as importações e exportações são resolvidas em tempo de compilação. Isso permite otimizações e análises estáticas por parte dos transpiladores e dos ambientes de execução.
 
 ## Exemplo calculadora CommonJS
 Vamos criar outro exemplo de módulo em Node.js que envolve a criação de um módulo para cálculos matemáticos simples. Este módulo terá funções para calcular a soma, subtração, multiplicação e divisão de dois números.
@@ -238,7 +238,7 @@ Neste exemplo, importamos o módulo `calculadora.js` usando `require('./calculad
 
 Quando você executar o arquivo `app.js`, verá o resultado das operações matemáticas no console.
 
-## Exemplo Calculadora em ECMAScript
+## Exemplo calculadora em ECMAScript
 Vamos reescrever o exemplo da calculadora utilizando os módulos ECMAScript (ES6):
 
 ### Módulo `calculadora.js`:
@@ -270,5 +270,3 @@ console.log('Divisão:', divisao(6, 2));
 ```
 
 Neste exemplo, usamos a nova sintaxe de exportação do ECMAScript (ES6) para exportar funções de uma calculadora. Utilizamos a palavra-chave `export` para exportar cada função individualmente. Na importação, usamos a palavra-chave `import` para importar as funções específicas que precisamos da calculadora.
-
-O ES6 introduziu uma sintaxe mais concisa e expressiva para trabalhar com módulos, tornando o código mais claro e fácil de entender.
