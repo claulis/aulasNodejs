@@ -25,7 +25,7 @@ export const RetornaEmpregoFuturo = (dia, mes) => {
   for (let i = 1; i <= 31; i++) {
     segundaColuna.push(worksheet[`B${i}`].v);
   }
-
+ callback
   try {
     console.log(
       `Seu emprego futuro será: ${primeiraColuna[mes]} ${segundaColuna[dia]}`
