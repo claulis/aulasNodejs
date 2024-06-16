@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "readline": "^1.3.0",
+    "xlsx": "^0.18.5"
+  },
+  "name": "aula-6---brincadeira",
+  "version": "1.0.0",
+  "main": "brincadeira.js",
+  "devDependencies": {
+    "@types/xlsx": "^0.0.36"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
